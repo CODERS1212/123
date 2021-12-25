@@ -1,0 +1,40 @@
+body{
+    background-color: red;
+}
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 5px 5px 5px grey;
+}
+
+.heading:hover{
+    background-image: linear-gradient(to top right, green,orange,blue);
+}
+
+.copy_righ_foter:hover{
+    background-image: linear-gradient(to top right, yellow,purple,rgb(0, 255, 242));
+}
+
+.note
+{
+    font-size: 15px;
+    color: black;
+}
+
+.copy_righ_foter{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;
+    line-height: 3;
+    text-align: center;
+}
+
+canvas
+{
+    border:5px solid white;
+    border-radius: 20px;
+    box-shadow:5px 5px 5px purple;
+}
